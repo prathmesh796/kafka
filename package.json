@@ -1,0 +1,21 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -b && node dist/index.js",
+    "producer": "tsc -b && node dist/producer.js",
+    "consumer": "tsc -b && node dist/consumer.js",
+    "consumer-userId": "tsc -b && node dist/consumer-userId.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "typescript": "^6.0.3"
+  }
+}
